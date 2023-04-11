@@ -26,3 +26,4 @@ path = "borrow_checker_introduction/src/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+openssl = "0.10.50"
