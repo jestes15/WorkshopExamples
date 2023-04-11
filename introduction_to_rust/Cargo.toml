@@ -1,0 +1,28 @@
+[package]
+name = "introduction_to_rust"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["type_system_introduction", "function_introduction", "error_handling_introduction", "borrow_checker_introduction"]
+
+[["bin"]]
+name = "type_system_introduction"
+path = "type_system_introduction/src/main.rs"
+
+[["bin"]]
+name = "function_introduction"
+path = "function_introduction/src/main.rs"
+
+[["bin"]]
+name = "error_handling_introduction"
+path = "error_handling_introduction/src/main.rs"
+
+[["bin"]]
+name = "borrow_checker_introduction"
+path = "borrow_checker_introduction/src/main.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
